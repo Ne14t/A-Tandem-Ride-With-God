@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/altitude-clouds-cold-417173.jpg);
+    background-size: cover;
+    height: 95%;
+    width: 95%;
+    margin: 1em;
+    box-shadow: 0 8px 26px 0 rgba(0,0,0,0.2);
+    border-radius: 1em;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    background-color: white;
+    opacity: .7; 
+    border-radius: 1em;
+    width: 33.33%;
+    height: 33.33vw;
+    margin-bottom: 2em;
+}
+p{
+    margin-right: 2em;
+    margin-left: 2em;
+}
+.page-number{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    height: 1em;
+    width: 95%;
+}
+.footer{
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 95%;
+}
+.btn{
+    margin: 1em;
+}
